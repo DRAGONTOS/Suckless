@@ -1,0 +1,4 @@
+#!/bin/sh
+
+PKG_COUNT=$(apt list --upgradable | wc -l) 
+echo "🛠️ $PKG_COUNT"
